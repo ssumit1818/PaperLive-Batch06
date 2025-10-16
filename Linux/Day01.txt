@@ -1,6 +1,6 @@
 (Day 03)
 ~~~~~~~~~~~~~~~~~
-this is sumit ...
+
 this is kastro
 Linux - Day 01
 ~~~~~~~~~~~~~~~~~
@@ -121,6 +121,7 @@ cal -3
 
 #To see the calendar of a complete year
 cal <YearName>
+
 
 
 
