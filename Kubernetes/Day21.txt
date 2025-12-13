@@ -67,6 +67,11 @@ VPC - fullaccess
 EC2 - fullaccess
 CloudFormation - fullaccess
 Administrator - acces
+AmazonEKSClusterPolicy
+AmazonEKSServicePolicy
+AmazonEKSWorkerNodePolicy
+AmazonEC2ContainerRegistryReadOnly
+AmazonEKS_CNI_Policy
 Enter Role Name (eksroleec2)
 
 Attach created role to EKS Management Host (Select EC2 => Click on Security => Modify IAM Role => attach IAM role we have created)
@@ -163,6 +168,7 @@ To delete the resources created using a specific yml file;
 kubectl apply -f 01pod.yml
 
 Multi container pod;
+
 
 
 
